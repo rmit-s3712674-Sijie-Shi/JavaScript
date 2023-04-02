@@ -1,0 +1,22 @@
+.tooltipsText {
+    background-color: gray;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    right: -25%;
+    color: white;
+    opacity: 0.85;
+    box-shadow: 0.1px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 1px rgb(158, 158, 158);
+}
+
+.tooltips {
+    border: 1px black;
+    position: relative;
+}
+
+.tooltips:hover .tooltipsText {
+    visibility: visible;
+}
